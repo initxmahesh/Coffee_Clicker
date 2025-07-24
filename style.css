@@ -3,6 +3,8 @@
 }
 body {
   margin: 0px;
+  background: linear-gradient(135deg, #8392a1, #4f5823);
+
 }
 .column-container {
   display: flex;
@@ -35,7 +37,7 @@ body {
 .column-header {
   font-size: 25px;
   position: relative;
-  background-color: white;
+  background-color: rgb(49, 148, 46);
   top: 8px;
 }
 #big_coffee {
@@ -47,6 +49,18 @@ body {
 .counter-container {
   font-size: 30px;
   margin: 10px;
+  width: 180px;
+  height: 45px;
+  display: inline-flex;
+  padding: 5px 10px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(1,5,-1,0.2);
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
 }
 
 .cps-container {
@@ -58,6 +72,9 @@ body {
   overflow: auto;
   border: 2px black solid;
   border-radius: 5px;
+  background-image: url('./back.png');
+  background-size: cover;
+  opacity: 0px;
 }
 
 .producer {
@@ -81,4 +98,16 @@ body {
 .producer button {
   font-size: 15px;
   width: 50px;
+}
+
+.production {
+  text-align: center;
+  margin-top: 20px; 
+  font-size: 16px; 
+  line-height: 0.8; 
+  color: #000000;
+}
+
+.production p {
+  margin: 5px 0;
 }
